@@ -1,0 +1,23 @@
+LCS DC length = 3
+Comparison count = 129
+
+
+LCS DP BU length = 3
+Comparison count = 36
+
+CCB
+
+0 0 0 0 0 0 0
+0 1 1 1 1 1 1
+0 1 1 2 2 2 2
+0 1 1 2 2 2 3
+0 1 1 2 2 2 3
+0 1 1 2 2 2 3
+0 1 1 2 2 2 3
+
+  D L D L L L
+  D T D L L L
+  T T T T T D
+  T T T T T D
+  D T D T T T
+  T T T T T D

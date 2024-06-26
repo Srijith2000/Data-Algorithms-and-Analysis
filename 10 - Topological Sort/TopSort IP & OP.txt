@@ -1,0 +1,46 @@
+Enter the number of vertices: 8
+
+Enter the name of vertex 1: a
+Enter the number of adjacent vertices of a: 2
+Enter the index of adjacent vertex 1 of a: 4
+Enter the index of adjacent vertex 2 of a: 5
+
+Enter the name of vertex 2: b
+Enter the number of adjacent vertices of b: 3
+Enter the index of adjacent vertex 1 of b: 4
+Enter the index of adjacent vertex 2 of b: 6
+Enter the index of adjacent vertex 3 of b: 7
+
+Enter the name of vertex 3: c
+Enter the number of adjacent vertices of c: 1
+Enter the index of adjacent vertex 1 of c: 4
+
+Enter the name of vertex 4: d
+Enter the number of adjacent vertices of d: 0
+
+Enter the name of vertex 5: e
+Enter the number of adjacent vertices of e: 1
+Enter the index of adjacent vertex 1 of e: 7
+
+Enter the name of vertex 6: f
+Enter the number of adjacent vertices of f: 1
+Enter the index of adjacent vertex 1 of f: 8
+
+Enter the name of vertex 7: g
+Enter the number of adjacent vertices of g: 1
+Enter the index of adjacent vertex 1 of g: 8
+
+Enter the name of vertex 8: h
+Enter the number of adjacent vertices of h: 0
+
+Adjacency List:
+a-->4-->5
+b-->4-->6-->7
+c-->4
+d
+e-->7
+f-->8
+g-->8
+h
+
+Topological Sort: c b f a e g h d

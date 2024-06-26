@@ -1,0 +1,21 @@
+Enter number of vertices: 5
+Enter name of the vertex - 1: a
+Enter name of the vertex - 2: b
+Enter name of the vertex - 3: c
+Enter name of the vertex - 4: d
+Enter name of the vertex - 5: e
+Enter number of edges: 8
+Enter index of FROM vertex,TO vertex & Edge weight: 1 2 -1
+Enter index of FROM vertex,TO vertex & Edge weight: 1 3 4
+Enter index of FROM vertex,TO vertex & Edge weight: 2 3 3
+Enter index of FROM vertex,TO vertex & Edge weight: 2 4 2
+Enter index of FROM vertex,TO vertex & Edge weight: 2 5 2
+Enter index of FROM vertex,TO vertex & Edge weight: 4 3 5
+Enter index of FROM vertex,TO vertex & Edge weight: 4 2 1
+Enter index of FROM vertex,TO vertex & Edge weight: 5 4 -3
+V_Id    Name    Dist    Parent
+1       a       0       -1
+2       b       -1      1
+3       c       2       2
+4       d       -2      5
+5       e       1       2

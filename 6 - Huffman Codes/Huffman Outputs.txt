@@ -1,0 +1,49 @@
+Sample Output 1: Character: [A,B,C,D,E,F,G], 
+Frequency: [35,30,60,15,25,70,135]
+
+A       35      4       1101
+B       30      4       1100
+C       60      3       101
+D       15      4       1000
+E       25      4       1001
+F       70      3       111
+G       135     1       0
+
+File size in Variable Length: 945
+File size in Fixed Length: 1110
+Compression Ratio: 14.8649 %
+
+Sample Output 2: Character: [S,T,U,V,W,X,Y,Z], 
+Frequency: [35,130,60,85,20,10,110,100]
+
+S       35      4       0111
+T       130     2       10
+U       60      3       010
+V       85      3       110
+W       20      5       01101
+X       10      5       01100
+Y       110     2       00
+Z       100     3       111
+
+File size in Variable Length: 1505
+File size in Fixed Length: 2200
+Compression Ratio: 31.5909 %
+
+Sample Output 3: Character:[H,I,J,K,L,M,N,O,P,Q,R], 
+Frequency: [1,1,2,3,5,8,13,21,34,55,89]
+
+H       1       10      1111111110
+I       1       10      1111111111
+J       2       9       111111110
+K       3       8       11111110
+L       5       7       1111110
+M       8       6       111110
+N       13      5       11110
+O       21      4       1110
+P       34      3       110
+Q       55      2       10
+R       89      1       0
+
+File size in Variable Length: 595
+File size in Fixed Length: 928
+Compression Ratio: 35.8836 %
